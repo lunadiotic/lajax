@@ -17,4 +17,13 @@ Aplikasi ini dibuat dengan [Laravel 5.4](laravel.com) sebagai referensi pribadi 
 - [Laravel Excel](https://github.com/Maatwebsite/Laravel-Excel) memanfaatkan fitur import/export menggunakan .xls.
 - [Milon Barcode](https://github.com/milon/barcode) membuat barcode.
 
-Semoga dapat membantu.
+##Cara Install
+1. Clone/Download project dengan mengetikkan perintah berikuta pada terminal/cmd: 
+git clone https://github.com/hxor/lajax.git
+
+2. Masuk directory : cd lajax
+
+3. Install melalui composer : composer install
+
+##End
+Semoga bermanfaat.
