@@ -45,3 +45,7 @@ Route::group(['middleware'=>'auth'], function (){
 
 
 });
+
+Route::get('date', function() {
+   echo indoDate(date('Y-m-d'));
+});
