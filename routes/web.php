@@ -49,3 +49,11 @@ Route::group(['middleware'=>'auth'], function (){
 Route::get('date', function() {
    echo indoDate(date('Y-m-d'));
 });
+
+Route::get('currency', function() {
+    echo "Rp" . indoCurrency(12500000) . ",-";
+});
+
+Route::get('spell', function() {
+    echo ucwords(indoSpellNumber(1432198));
+});
